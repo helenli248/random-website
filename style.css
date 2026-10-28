@@ -31,8 +31,8 @@ label {
     background: #ffe0e7
 }
 
-#t1:checked ~ #c1,
-#t2:checked ~ #c2 {
+#t1:checked ~ .tab-content-wrapper #c1,
+#t2:checked ~ .tab-content-wrapper #c2 {
     display: block;
 }
 
