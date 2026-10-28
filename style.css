@@ -33,13 +33,13 @@ label {
     padding: 10px;
     cursor: pointer;
     display: inline-block;
-    background: #ffe0e7;
+    background: #9bbf9e;
     margin: 0 5 px;
     border-radius: 4px;
 }
 
 input:checked + label {
-    background: #9eb99f;
+    background: #3e553f;
     color: white;
 }
 
