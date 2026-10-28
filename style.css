@@ -43,16 +43,25 @@ input:checked + label {
     color: white;
 }
 
-#t1:checked ~ #c1,
+#t1:checked ~ #c1 {
+    display: flex;
+}
+
 #t2:checked ~ #c2 {
     display: block;
 }
 
 .c {
     margin-top: 20px;
-    padding: 15px;
+    padding: 25px;
     background: rgba(225, 225, 225, 0.9);
     color: #000;
     border-radius: 4px;
-min-width: 200px;
+    min-width: 300px;
+}
+
+#c1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
