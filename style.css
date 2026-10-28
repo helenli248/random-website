@@ -20,6 +20,11 @@ h1,h5 {
     margin: 10px 0;
 }
 
+.tabs-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
 input, .c {
     display: none;
 }
@@ -28,14 +33,26 @@ label {
     padding: 10px;
     cursor: pointer;
     display: inline-block;
-    background: #ffe0e7
-}
-
-#t1:checked ~ .tab-content-wrapper #c1,
-#t2:checked ~ .tab-content-wrapper #c2 {
-    display: block;
+    background: #ffe0e7;
+    margin: 0 5 px;
+    border-radius: 4px;
 }
 
 input:checked + label {
     background: #9eb99f;
+    color: white;
+}
+
+#t1:checked ~ #c1,
+#t2:checked ~ #c2 {
+    display: block;
+}
+
+.c {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(225, 225, 225, 0.9);
+    color: #000;
+    border-radius: 4px;
+min-width: 200px;
 }
