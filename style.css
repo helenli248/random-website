@@ -19,3 +19,23 @@ h1,h5 {
     text-align: center;
     margin: 10px 0;
 }
+
+input, .c {
+    display: none;
+}
+
+label {
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    background: #ffe0e7
+}
+
+#t1:checked ~ #c1,
+#t2:checked ~ #c2 {
+    display: block;
+}
+
+input:checked + label {
+    background: #9eb99f;
+}
