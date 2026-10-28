@@ -1,21 +1,6 @@
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 
-    background-image: url('downloads.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    min-height: 100vh;
-    margin: 0
-
-}
-
-h1,h5 {
+#c1 h1, #c1 h5 {
     text-align: center;
     margin: 10px 0;
 }
@@ -64,4 +49,16 @@ input:checked + label {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+
+    background-image: url('downloads.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0
+
+}
+
 }
