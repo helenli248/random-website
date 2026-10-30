@@ -69,6 +69,8 @@ input:checked + label {
 #c2 ul {
     text-align: center;
     margin: 10px 0;
+    margin-left: 0;
+    padding-left: 0;
     list-style-position: inside;
 }
 
