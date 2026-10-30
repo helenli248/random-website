@@ -60,5 +60,18 @@ input:checked + label {
     margin: 0
 
 }
+#c2 h2, ul {
+    text-align: center;
+    margin: 10px 0;
+}
+#c2 {
+    background-image: url('downloads.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
 
 }
