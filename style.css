@@ -36,14 +36,14 @@ input:checked + label {
     display: block;
 }
 
-.c {
+/*.c {
     margin-top: 20px;
     padding: 25px;
     background: rgba(225, 225, 225, 0.9);
     color: #000;
     border-radius: 4px;
     min-width: 300px;
-}
+}*/
 
 #c1 {
     flex-direction: column;
