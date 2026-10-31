@@ -84,7 +84,6 @@ input:checked + label {
     margin: 0; */
     .striped-background {
         min-height: 100vh;
-        box-sizing: border-box;
 
         background-image: repeating-linear-gradient(
             45deg,
