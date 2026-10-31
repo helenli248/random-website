@@ -74,8 +74,7 @@ input:checked + label {
     list-style-position: inside;
 }
 
-#c2 {
-    .striped-background {
+#c2.striped-background {
         min-height: 100vh;
         border: none;
         outline: none;
@@ -91,6 +90,4 @@ input:checked + label {
             #3d583b 50px
         );
     }
-}
-
 }
