@@ -75,13 +75,6 @@ input:checked + label {
 }
 
 #c2 {
-    /* background-image: url('TO COME LATER');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    min-height: 100vh;
-    margin: 0; */
     .striped-background {
         min-height: 100vh;
         border: none;
@@ -94,8 +87,8 @@ input:checked + label {
             45deg,
             #a0ba9a,
             #a0ba9a 25px,
-            #ffffff 25px,
-            #ffffff 50px
+            #cae0c9 25px,
+            #cae0c9 50px
         );
     }
 }
